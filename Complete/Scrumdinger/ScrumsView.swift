@@ -16,7 +16,7 @@ struct ScrumsView: View {
                 .listRowBackground(scrum.color)
             }
         }
-        .navigationTitle("Daily Scrums")
+        .navigationTitle("Student Tickets")
         .navigationBarItems(trailing: Button(action: {}) {
             Image(systemName: "plus")
         })
